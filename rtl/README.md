@@ -13,3 +13,9 @@
 | turbo9_r.v    |  Turbo9 top 16-bit memory bus         |
 | turbo9_gtr.v  |  Turbo9 top 16-bit Harvard memory bus |
 |               |                                       |
+
+## BASYS3 TurbOS target
+
+The [Turbo9S BASYS3 target](../fpga/basys3-turbos/README.md) boots TurbOS from
+initialized RAM at 50 MHz, with timer and UART interrupts. It builds an isolated
+Apio project and checks routed timing before reporting success.

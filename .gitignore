@@ -7,3 +7,5 @@ scratch.*
 # ignore agent instructions
 AGENTS.md
 
+# FPGA build and validation outputs
+_build/
